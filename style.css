@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 300px;
+    height: 300px;
+    /* border: 2px solid; */
+background: linear-gradient(125deg, #e8d3d3, #cccccc);
+    border-radius: 50%;
+    box-shadow: ouset 5px 2px 6px 2px rgba(0, 0, 0, 0.307);
+    transition: all .3s linear;
+}
+.main:hover{
+    box-shadow: inset 4px 10px 5px rgba(0, 0, 0, 0.51);
+    cursor: pointer;
+
+}
